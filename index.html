@@ -1,3 +1,76 @@
-Bright Adventure ニューシングルリリース
-ハイテンポでゲームのBGM風
-Nancy
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bright Adventure</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Roboto', Arial, sans-serif;
+			background: linear-gradient(135deg, #0f2027, #2c5364 80%);
+			color: #fff;
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.container {
+			background: rgba(255,255,255,0.05);
+			border-radius: 24px;
+			box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+			padding: 48px 32px;
+			max-width: 400px;
+			text-align: center;
+		}
+		h1 {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 2.5rem;
+			margin-bottom: 16px;
+			letter-spacing: 2px;
+		}
+		p {
+			font-size: 1.1rem;
+			margin-bottom: 24px;
+		}
+		.btn {
+			display: inline-block;
+			padding: 12px 32px;
+			background: linear-gradient(90deg, #ff512f, #dd2476);
+			color: #fff;
+			border: none;
+			border-radius: 32px;
+			font-size: 1rem;
+			font-weight: 500;
+			letter-spacing: 1px;
+			cursor: pointer;
+			transition: background 0.3s, transform 0.2s;
+			box-shadow: 0 4px 16px rgba(255,81,47,0.2);
+		}
+		.btn:hover {
+			background: linear-gradient(90deg, #dd2476, #ff512f);
+			transform: translateY(-2px) scale(1.05);
+		}
+		@media (max-width: 600px) {
+			.container {
+				padding: 24px 8px;
+				max-width: 95vw;
+			}
+			h1 {
+				font-size: 2rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Bright Adventure</h1>
+		<p>ニューシングルリリース<br>ハイテンポでゲームのBGM風<br>by Nancy</p>
+		<a class="btn" href="#">Listen Now</a>
+	</div>
+</body>
+</html>
